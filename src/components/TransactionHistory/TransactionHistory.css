@@ -1,0 +1,25 @@
+table {
+    text-align: center;
+    width: 400px;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    border-bottom: 1px solid #000;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+td:not(:last-child) {
+    border-right: 1px solid #000;
+}
+
+.listName {
+    color: #fff;
+    background-color: #242222;
+}
+    
+.listRow {
+    border-bottom: 1px solid #000;
+    background-color: #ddd6d6;
+}
